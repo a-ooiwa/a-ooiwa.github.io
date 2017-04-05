@@ -130,6 +130,11 @@ section h2,
 /* ヘッダー
 ------------------------------------------------------------*/
 
+header
+{
+    background-color: #FFFFFF
+}
+
 header .profile
 {
     clear: both; /* 上のメールボタンのfloatを解除 */
@@ -151,8 +156,6 @@ header .site-title span
 
     color: #2C2B29;
 }
-
-
 
 
 header .profile-icon
@@ -189,6 +192,7 @@ section h2
 #skills
 {
     background-color: #ECEBE8;
+    border-bottom:  1px solid #D7D5CF ; 
 }
 
 #skills .container
